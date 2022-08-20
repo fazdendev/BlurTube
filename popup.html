@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="./popup.js"></script>
+    <link rel="stylesheet" href="./styles/popup.css" />
+    <link rel="stylesheet" href="./styles/toggle.css" />
+  </head>
+  <body>
+    <h1 class="text" id="heading">BlurTube</h1>
+    <div class="content">
+      <label class="switch">
+        <input type="checkbox" id="enable" class="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      <div class="blur-slider">
+        <div id="blur-level-text">
+          Blur level:
+          <div id="blur-level"></div>
+        </div>
+        <div class="pure-material-slider"><input id="slider" type="range" min="1" max="100" value="50" /></div>
+      </div>
+    </div>
+  </body>
+</html>
