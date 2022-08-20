@@ -2,7 +2,7 @@
   "name": "BlurTube - Blur all Youtube video previews",
   "version": "0.0.1",
   "description": "An extension that make Youtube less distractive by bluring all video previews.",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": ["storage"],
   "content_scripts": [
     {
@@ -12,7 +12,7 @@
       "js": ["filter.js"]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "images/bl128.png",
     "default_popup": "popup.html",
     "browser_style": true
